@@ -6,4 +6,4 @@ if str(number)[-1] > '5':
 elif str(number)[-1] == '0':
     print(f'Last digit of {number} is {str(number)[-1]} and is 0')
 else:
-    print(f'Last digit of {number} is {str-abs(number)[-1]} and is less than 6 and not 0')
+    print(f'Last digit of {number} is {str(-abs(number))[-1]} and is less than 6 and not 0')
