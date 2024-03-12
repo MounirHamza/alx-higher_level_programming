@@ -4,11 +4,11 @@ def pow(a, b):
         return 1
     elif b > 0:
         result = 1
-        for b in range(b):
+        for _ in range(b):
             result *= a
         return result
     else:
         result = 1
-        for b in range(-b):
+        for _ in range(-b):
             result /= a
         return result
